@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fac-container">
+      <div class="fac-inner">
+        <img
+          src="./images/illustration-woman-online-desktop.svg"
+          alt=""
+          class="fac-img"
+        />
+        <img
+          src="./images/illustration-box-desktop.svg"
+          alt=""
+          class="float-img"
+        />
+        <div class="fac-ques">
+          <h1>FAQ</h1>
+           <div class="accordion_questions">
+            <div class="text">
+              <div class="question">
+                <button id="button">
+                  <p class="text-bold">How many team members can I invite?</p>
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    alt="icon-arrow-down"
+                    class="arrow"
+                  />
+                </button>
+              </div>
+              <div class="answer">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </div>
+            </div>
+            <div class="text">
+              <div class="question">
+                <button id="button">
+                  <p class="text-bold">What is the maximum file upload size?</p>
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    alt="icon-arrow-down"
+                    class="arrow"
+                  />
+                </button>
+              </div>
+              <div class="answer">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </div>
+            </div>
+            <div class="text">
+              <div class="question">
+                <button id="button">
+                  <p class="text-bold">How do I reset my password?</p>
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    alt="icon-arrow-down"
+                    class="arrow"
+                  />
+                </button>
+              </div>
+              <div class="answer">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </div>
+            </div>
+            <div class="text">
+              <div class="question">
+                <button id="button">
+                  <p class="text-bold">Can I cancel my subscription?</p>
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    alt="icon-arrow-down"
+                    class="arrow"
+                  />
+                </button>
+              </div>
+              <div class="answer">
+                Yes! Send us a message and we’ll process your request no
+                flex-quess asked.
+              </div>
+            </div>
+            <div class="text">
+              <div class="question">
+                <button id="button">
+                  <p class="text-bold">Do you provide additional support?</p>
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    alt="icon-arrow-down"
+                    class="arrow"
+                  />
+                </button>
+              </div>
+              <div class="answer">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
